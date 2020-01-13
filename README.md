@@ -17,7 +17,8 @@ Importing world database
 
 Backend
 1. Change database parameters inside backend/app.py if needed.
-2. ```shell
+2.
+```shell
 python -m venv python-backend
 python-backend\Scripts\activate
 cd backend
@@ -26,7 +27,8 @@ python app.py
 ```
 Frontend:
 1. Change server url if needed in frontend/src/parameters/parameters.js
-2. ```shell
+2.
+```shell
 cd frontend
 npm install
 npm start
@@ -36,9 +38,6 @@ npm start
 
 App on web:
 ![alt text](samples/Capture2.PNG)
-
-App on mobile:
-![alt text](samples/Capture1.PNG)
 
 City info:
 ![alt text](samples/Capture3.PNG)
