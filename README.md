@@ -16,7 +16,7 @@ Importing world database
 4. Run `psql -U USERNAME --file=PATH-TO\database\world.sql DESIRED_DATABASE_NAME`.
 
 Backend
-1. Change database parameters inside backend/app.py if needed.
+1. Change database parameters inside `backend/app.py` if needed.
 2.
 ```shell
 python -m venv python-backend
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python app.py
 ```
 Frontend:
-1. Change server url if needed in frontend/src/parameters/parameters.js
+1. Change server url if needed in `frontend/src/parameters/parameters.js`
 2.
 ```shell
 cd frontend
